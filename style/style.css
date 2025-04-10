@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: "Anton", sans-serif;
+}
+header {
+  background-color: hsl(48, 89%, 50%);
+}
+.header {
+  display: flex;
+  padding: 10px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+.direc {
+  display: flex;
+  gap: 50px;
+}
+.direccion {
+  list-style: none;
+  font-weight: bold;
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+.button-1 {
+  display: flex;
+  padding: 15px 55px;
+  border: none;
+  background-color: hsl(48, 89%, 50%);
+  font-weight: 600;
+  font-size: 15px;
+}
+.section-white {
+  padding: 85px;
+  height: 500px;
+}
+.container-rowr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+}
+.section-gray {
+  padding: 85px 285px;
+}
+.container-card {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section-yellow {
+  padding: 85px;
+  background-color: hsl(48, 89%, 50%);
+}
+.container-row {
+  display: flex;
+  align-items: center;
+}
+.text-box h2 {
+  color: black;
+}
+/*///////////////////////////////////+++++++++++++++++++++++///////////////////////////////////////////////////////*/
+
+.container-tres {
+  padding: 85px;
+  height: 800px;
+}
+.class-tres {
+  display: flex;
+  background-color: rgb(179 179 179);
+  box-shadow: 9px 10px 12px rgba(0, 0, 0, 0.2);
+  align-self: center;
+}
+.parrafo-tres {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 31px;
+}
+.parrafo-tres h1 {
+  font-size: 75px;
+  color: hsl(48, 89%, 50%);
+}
+.img-parrafo {
+  display: flex;
+  position: relative;
+}
+.img-tres {
+  width: 100%;
+  height: auto;
+}
+
+.container-cuatro {
+  background-color: black;
+}
+.class-cuatro img {
+  width: 100%;
+}
+.class-cuatro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 85px;
+  gap: 20px;
+}
+h2 {
+  font-size: 47px;
+  font-weight: bold;
+  color: hsl(48, 89%, 50%);
+}
+.class-cuatro p {
+  color: white;
+  line-height: 1;
+}
+.class-quinto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 85px;
+}
+.parrafo-quinto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.parrafo-quinto h2 {
+  font-size: 47px;
+  font-weight: bold;
+  color: black;
+}
+.parrafo-quinto p {
+  margin-bottom: 20px;
+}
+.conatiner-seis {
+  padding: 85px;
+  background-color: rgb(228, 225, 225);
+}
+.class-seis {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.parrafo-seis {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.parrafo-seis h1 {
+  font-size: 67px;
+  font-weight: bold;
+}
+.container-datos {
+  padding: 80px;
+}
+.class-datos {
+  display: flex;
+  align-items: center;
+  gap: 226px;
+}
+.datos {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  background-color: black;
+  padding: 50px;
+  border: 2px solid white;
+}
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+label {
+  margin: 10px 0 5px;
+  color: white;
+}
+input,
+textarea {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+textarea {
+  margin-bottom: 20px;
+  height: 200px;
+}
+input {
+  height: 30px;
+}
+.footer-text {
+  color: white;
+}
+.parrafo-datos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.txt-amarillo {
+  font-size: 47px;
+  font-weight: bold;
+  color: hsl(48, 89%, 50%);
+}
+.parrafo-datos p {
+  margin-bottom: 20px;
+}
+.container-contact {
+  background-color: hsl(48, 89%, 50%);
+}
+.contact img {
+  width: 100%;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 55px;
+  gap: 25px;
+}
+h3 {
+  font-size: 37px;
+  font-weight: bold;
+}
+footer {
+  background-color: black;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid white;
+  color: hsl(48, 89%, 50%);
+  padding: 85px;
+  gap: 125px;
+}
+.ul {
+  display: flex;
+  gap: 50px;
+}
+.ul .ul-2 ul,
+li {
+  list-style: none;
+  bottom: 50px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.final {
+  display: flex;
+  justify-content: space-between;
+  padding: 85px;
+  color: hsl(48, 89%, 50%);
+}
+.social {
+  background-color: hsl(48, 89%, 50%);
+}
